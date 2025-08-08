@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn the basics of HTML5 structure, web accessibility, and SEO through a practical example page.">
+  <meta name="author" content="Your Name">
+  <title>HTML5 + Accessibility & SEO Basics</title>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Web Foundations</h1>
+    <p>Your starting point for learning HTML5, Accessibility, and SEO.</p>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about" title="About This Page">About</a></li>
+        <li><a href="#accessibility" title="Accessibility Best Practices">Accessibility</a></li>
+        <li><a href="#seo" title="SEO Basics">SEO</a></li>
+        <li><a href="#contact" title="Contact Information">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>This example demonstrates how to build a simple and effective HTML5 web page using semantic tags, accessibility principles, and basic SEO techniques. It serves as a learning resource for beginners in web development.</p>
+    </section>
+
+    <section id="accessibility">
+      <h2>Accessibility Best Practices</h2>
+      <article>
+        <h3>Use Semantic Tags</h3>
+        <p>HTML5 provides semantic elements like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> that help screen readers and assistive technologies understand your content.</p>
+      </article>
+      <article>
+        <h3>Include ARIA Landmarks</h3>
+        <p>Attributes such as <code>aria-label</code> help clarify the purpose of page regions for users relying on screen readers.</p>
+      </article>
+      <article>
+        <h3>Use Descriptive Links</h3>
+        <p>Avoid "click here" in links. Use descriptive text to give users context about the link destination.</p>
+      </article>
+    </section>
+
+    <section id="seo">
+      <h2>SEO Basics</h2>
+      <article>
+        <h3>Use Headings Correctly</h3>
+        <p>Organize your content with heading tags from <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> in a logical order. Avoid skipping levels.</p>
+      </article>
+      <article>
+        <h3>Write Descriptive Metadata</h3>
+        <p>Include meaningful <code>&lt;title&gt;</code> and <code>&lt;meta name="description"&gt;</code> tags to help search engines understand your page content.</p>
+      </article>
+      <article>
+        <h3>Use Meaningful Content</h3>
+        <p>Content should be written for humans but structured in a way that search engines can also easily interpret.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <section id="contact" aria-label="Contact Information">
+      <h2>Contact</h2>
+      <address>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>Location: Online</p>
+      </address>
+    </section>
+    <p>&copy; 2025 Web Foundations. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
